@@ -1,0 +1,33 @@
+{% extends "App_coder/padre.html" %}
+
+{% load static %}
+
+{% block contenidoQueCambia %}
+
+    <h1>Realice una búsqueda</h1>
+
+    <form action="/App_coder/busqueda" method="GET">
+
+        <input type="text" name="ubicacion" id="ubicacion">
+        <input type="submit" value="Buscar">
+
+    </form>
+
+    {% if villas %}
+
+    <p>Estamos buscando: {{ubicacion}}</p>
+
+    <ul>
+        
+    {% for villa in villas %}
+        <li>{{villa.nombre}}</li>
+        <li>{{villa.ubicacion}}</li>
+        <li>{{villa.numero}}</li>
+        <li>{{villa.fundacion}}</li>
+    {% endfor %}
+
+    </ul>
+
+    {% endif %}
+
+{% endblock %}
