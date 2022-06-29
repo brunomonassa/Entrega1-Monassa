@@ -1,22 +1,22 @@
 # Entrega1-Monassa
 Proyecto pagina web con lenguaje Python utilizando Django
 
-#Proyecto
+# Proyecto
 Creacion de proyecto Django
 Descarga de plantilla bootstrap
 Herencia de plantillas
 
-#Models
+# Models
 Creacion de modelos para utilizar en el proyecto y base de datos
 
-#Forms
+# Forms
 Creacion de formularios para poder cargar datos desde la pagina web
 
-#Views
+# Views
 Creadas a partir de nuestros modelos y formularios para poder navegar por la pagina web
 
-#Urls
+# Urls
 Ubicación de las rutas utilizadas en el proyecto
 
-#Busqueda
+# Busqueda
 El programa buscara en la base de datos y si existe nos devolvera el producto
